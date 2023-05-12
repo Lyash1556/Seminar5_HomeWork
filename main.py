@@ -1,16 +1,34 @@
-# This is a sample Python script.
+#Задача 26:  Напишите программу, которая на вход принимает два числа A и B, и возводит число
+#А в целую степень B с помощью рекурсии.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# num1 = int(input('A: '))
+# num2 = int(input('B: '))
+#
+# c = 1
+#
+# def degree (a, b, c):
+#     if b != 0:
+#         c *= a
+#         b -= 1
+#     else:
+#         return c
+#     return degree(a, b, c)
+#
+#
+# print(degree(num1, num2, c))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#*Пример:*
+
+#2 2
+#4
+#** Дополнительно **
+#1. Последовательностью Фибоначчи называется последовательность чисел a0, a1, ..., an, ..., где
+
+#a0 = 0, a1 = 1, ak = ak-1 + ak-2 (k > 1).
+
+#Требуется найти N-е число Фибоначчи
