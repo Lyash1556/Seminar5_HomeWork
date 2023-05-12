@@ -8,7 +8,7 @@ def summa(a, b):
     return summa(a, b - 1) + 1
 
 
-x = int(input("XX: "))
-y = int(input("YYY: "))
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
 
 print(summa(x, y))
